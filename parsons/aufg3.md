@@ -18,11 +18,11 @@ description: >-
 <script type="text/javascript">
 (function () {
   var initial =
-    "total = 0\\n" +
-    "for i in range(1, 11):\\n" +
-    "    total += i\\n" +
-    "print(total)\\n" +
-    "i = 0  #distractor\\n";
+    "total = 0\n" +
+    "for i in range(1, 11):\n" +
+    "    total += i\n" +
+    "print(total)\n" +
+    "i = 0  #distractor";
 
   var pp = new ParsonsWidget({
     sortableId: "p3-work",

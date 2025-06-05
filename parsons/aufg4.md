@@ -18,13 +18,13 @@ description: >-
 <script type="text/javascript">
 (function () {
   var initial =
-    "def factorial(n):\\n" +
-    "    if n == 0:\\n" +
-    "        return 1\\n" +
-    "    else:\\n" +
-    "        return n * factorial(n - 1)\\n" +
-    "return 0  #distractor\\n" +
-    "print(factorial(5))\\n";
+    "def factorial(n):\n" +
+    "    if n == 0:\n" +
+    "        return 1\n" +
+    "    else:\n" +
+    "        return n * factorial(n - 1)\n" +
+    "return 0  #distractor\n" +
+    "print(factorial(5))";
 
   var pp = new ParsonsWidget({
     sortableId: "p4-work",

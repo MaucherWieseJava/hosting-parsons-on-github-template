@@ -18,12 +18,12 @@ description: >-
 <script type="text/javascript">
 (function () {
   var initial =
-    "x = int(input(\"Gib eine Zahl ein:\"))\\n" +
-    "if x % 2 == 0:\\n" +
-    "    print(\"Gerade\")\\n" +
-    "else:\\n" +
-    "    print(\"Ungerade\")\\n" +
-    "print(\"Zahl ist negativ\")  #distractor\\n";
+    "x = int(input(\"Gib eine Zahl ein:\"))\n" +
+    "if x % 2 == 0:\n" +
+    "    print(\"Gerade\")\n" +
+    "else:\n" +
+    "    print(\"Ungerade\")\n" +
+    "print(\"Zahl ist negativ\")  #distractor";
 
   var pp = new ParsonsWidget({
     sortableId: "p2-work",

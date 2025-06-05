@@ -20,9 +20,9 @@ description: >-
 <script type="text/javascript">
 (function () {
   var initial =
-    "name = input(\"Wie heißt du?\")\\n" +
-    "print(\"Hallo, \" + name + \"!\")\\n" +
-    "print(\"Auf Wiedersehen\")  #distractor\\n";
+    "name = input(\"Wie heißt du?\")\n" +
+    "print(\"Hallo, \" + name + \"!\")\n" +
+    "print(\"Auf Wiedersehen\")  #distractor";
 
   var pp = new ParsonsWidget({
     sortableId: "p1-work",
