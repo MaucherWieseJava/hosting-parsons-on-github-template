@@ -35,3 +35,5 @@ Erstelle ein Programm, das den Namen einer Benutzerin abfragt und eine Begrüßu
   $("#greet-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
 })();
 </script>
+
+[Next](./aufg2.html)
