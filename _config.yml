@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Parsons UI Example
+title: Parsons UI Test für DHBW Projekt
 email: support@codio.com
-description: # >- # this means to ignore newlines until "baseurl:"
-  Drag or shuffle the blocks of code in the practice problems below.
-  Remember to indent where appropriate by dragging blocks to the right. <br/>
+description: 
+  Ziehe oder mische die Codeblöcke in den folgenden Übungsaufgaben.
+  Achte darauf, dort einzurücken, wo es erforderlich ist, indem du die Blöcke nach rechts ziehst. <br/>
 
-  To check your work, press the "Get Feedback" button.
-  To start over, press the "Reset Problem" button.
+  Um deine Lösung zu überprüfen, klicke auf die Schaltfläche „Get Feedback“.
+  Um neu zu beginnen, klicke auf die Schaltfläche „Reset Problem“.
 baseurl: "/hosting-parsons-on-github-template" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
