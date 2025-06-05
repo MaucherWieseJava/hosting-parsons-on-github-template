@@ -38,3 +38,5 @@ Ordne die Codezeilen so, dass das Programm entscheidet, ob eine Zahl gerade oder
   $("#cond-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
 })();
 </script>
+
+[Next](./aufg3.html)
