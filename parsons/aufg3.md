@@ -37,3 +37,5 @@ Setze die Zeilen in die richtige Reihenfolge, um die Summe der Zahlen von 1 bis 
   $("#loop-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
 })();
 </script>
+
+[Next](./aufg4.html)
