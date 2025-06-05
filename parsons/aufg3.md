@@ -1,16 +1,18 @@
 ---
 layout: default
-title: Puzzle 3 – Schleifen (Summe 1 … 10)
+title: Puzzle 3 – Schleife (Summe 1 … 10)
+description: >-
+  Setze die Codezeilen in die richtige Reihenfolge,
+  um die Summe der Zahlen von 1 bis 10 auszugeben.
 ---
 
-Setze die Zeilen in die richtige Reihenfolge, um die Summe der Zahlen von 1 bis 10 zu berechnen.
-
-<div id="loop-trash" class="sortable-code"></div>
-<div id="loop-work"  class="sortable-code"></div>
+<div id="p3-trash" class="sortable-code"></div>
+<div id="p3-work"  class="sortable-code"></div>
 <div style="clear: both;"></div>
+
 <p>
-    <input id="loop-feedback"  type="button" value="Feedback" />
-    <input id="loop-reset"     type="button" value="Reset"    />
+  <input id="p3-feedback" value="Get Feedback"  type="button" />
+  <input id="p3-reset"    value="Reset Problem" type="button" />
 </p>
 
 <script type="text/javascript">
@@ -23,8 +25,8 @@ Setze die Zeilen in die richtige Reihenfolge, um die Summe der Zahlen von 1 bis 
     "i = 0  #distractor\\n";
 
   var pp = new ParsonsWidget({
-    sortableId: "loop-work",
-    trashId:    "loop-trash",
+    sortableId: "p3-work",
+    trashId:    "p3-trash",
     grader:     ParsonsWidget._graders.LineBasedGrader,
     can_indent: true,
     x_indent:   50,
@@ -33,9 +35,7 @@ Setze die Zeilen in die richtige Reihenfolge, um die Summe der Zahlen von 1 bis 
   });
   pp.init(initial);
   pp.shuffleLines();
-  $("#loop-reset").click(function (e) { e.preventDefault(); pp.shuffleLines(); });
-  $("#loop-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
+  $("#p3-reset").click(function (e) { e.preventDefault(); pp.shuffleLines(); });
+  $("#p3-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
 })();
 </script>
-
-[Next](./aufg4.html)

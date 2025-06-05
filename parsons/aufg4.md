@@ -1,16 +1,18 @@
 ---
 layout: default
 title: Puzzle 4 – Rekursion (Fakultät)
+description: >-
+  Bringe die Zeilen in die passende Reihenfolge,
+  sodass die Funktion factorial(n) die Fakultät berechnet.
 ---
 
-Bringe die Zeilen in die korrekte Reihenfolge, sodass die Funktion `factorial` die Fakultät einer Zahl berechnet.
-
-<div id="fact-trash" class="sortable-code"></div>
-<div id="fact-work"  class="sortable-code"></div>
+<div id="p4-trash" class="sortable-code"></div>
+<div id="p4-work"  class="sortable-code"></div>
 <div style="clear: both;"></div>
+
 <p>
-    <input id="fact-feedback"  type="button" value="Feedback" />
-    <input id="fact-reset"     type="button" value="Reset"    />
+  <input id="p4-feedback" value="Get Feedback"  type="button" />
+  <input id="p4-reset"    value="Reset Problem" type="button" />
 </p>
 
 <script type="text/javascript">
@@ -25,8 +27,8 @@ Bringe die Zeilen in die korrekte Reihenfolge, sodass die Funktion `factorial` d
     "print(factorial(5))\\n";
 
   var pp = new ParsonsWidget({
-    sortableId: "fact-work",
-    trashId:    "fact-trash",
+    sortableId: "p4-work",
+    trashId:    "p4-trash",
     grader:     ParsonsWidget._graders.LineBasedGrader,
     can_indent: true,
     x_indent:   50,
@@ -35,9 +37,7 @@ Bringe die Zeilen in die korrekte Reihenfolge, sodass die Funktion `factorial` d
   });
   pp.init(initial);
   pp.shuffleLines();
-  $("#fact-reset").click(function (e) { e.preventDefault(); pp.shuffleLines(); });
-  $("#fact-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
+  $("#p4-reset").click(function (e) { e.preventDefault(); pp.shuffleLines(); });
+  $("#p4-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
 })();
 </script>
-
-[Next](./aufg5.html)

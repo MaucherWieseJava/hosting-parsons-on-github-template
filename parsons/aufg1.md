@@ -1,16 +1,20 @@
 ---
 layout: default
 title: Puzzle 1 – Sequenzierung (Begrüßung)
+description: >-
+  Ziehe oder mische die Codeblöcke, um ein Programm zusammenzustellen,
+  das den Namen einer Benutzerin abfragt und eine Begrüßung ausgibt.
+  Einrückungen legst du durch Ziehen nach rechts fest. <br/>
+  Feedback erhältst du über „Get Feedback“, einen Neustart über „Reset Problem“.
 ---
 
-Erstelle ein Programm, das den Namen einer Benutzerin abfragt und eine Begrüßung ausgibt.
-
-<div id="greet-trash" class="sortable-code"></div>
-<div id="greet-work"  class="sortable-code"></div>
+<div id="p1-trash" class="sortable-code"></div>
+<div id="p1-work"  class="sortable-code"></div>
 <div style="clear: both;"></div>
+
 <p>
-    <input id="greet-feedback"  type="button" value="Feedback" />
-    <input id="greet-reset"     type="button" value="Reset"    />
+  <input id="p1-feedback" value="Get Feedback"  type="button" />
+  <input id="p1-reset"    value="Reset Problem" type="button" />
 </p>
 
 <script type="text/javascript">
@@ -21,8 +25,8 @@ Erstelle ein Programm, das den Namen einer Benutzerin abfragt und eine Begrüßu
     "print(\"Auf Wiedersehen\")  #distractor\\n";
 
   var pp = new ParsonsWidget({
-    sortableId: "greet-work",
-    trashId:    "greet-trash",
+    sortableId: "p1-work",
+    trashId:    "p1-trash",
     grader:     ParsonsWidget._graders.LineBasedGrader,
     can_indent: true,
     x_indent:   50,
@@ -31,9 +35,7 @@ Erstelle ein Programm, das den Namen einer Benutzerin abfragt und eine Begrüßu
   });
   pp.init(initial);
   pp.shuffleLines();
-  $("#greet-reset").click(function (e) { e.preventDefault(); pp.shuffleLines(); });
-  $("#greet-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
+  $("#p1-reset").click(function (e) { e.preventDefault(); pp.shuffleLines(); });
+  $("#p1-feedback").click(function (e) { e.preventDefault(); pp.getFeedback(); });
 })();
 </script>
-
-[Next](./aufg2.html)
