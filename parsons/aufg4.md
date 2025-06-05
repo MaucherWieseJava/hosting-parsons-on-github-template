@@ -42,4 +42,4 @@ description: >-
 })();
 </script>
 
-[Next](./aufg5.html)
+[Previous](./aufg3.html) | [Next](./aufg5.html)

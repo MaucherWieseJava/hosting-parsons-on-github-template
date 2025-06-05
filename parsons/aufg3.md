@@ -40,4 +40,4 @@ description: >-
 })();
 </script>
 
-[Next](./aufg4.html)
+[Previous](./aufg2.html) | [Next](./aufg4.html)

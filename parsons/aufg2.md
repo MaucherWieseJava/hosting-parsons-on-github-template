@@ -41,4 +41,4 @@ description: >-
 })();
 </script>
 
-[Next](./aufg3.html)
+[Previous](./aufg1.html) | [Next](./aufg3.html)
