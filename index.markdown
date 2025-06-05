@@ -12,5 +12,8 @@ title: Willkommen zu unserem Parsons-Puzzle Test
 Bitte lösen Sie die Aufgaben und merken sich ihr Feedback. Keine Daten werden gespeichert.
 
 
-### Example Next Link
+### Starten
+
+Bitte klicken Sie nach der Fertigstellung von den Puzzles auf den "Next" Knopf. Zum Starten drücken Sie diesen "Next" Knopf.
+
 [Next](./parsons/aufg1.html)
