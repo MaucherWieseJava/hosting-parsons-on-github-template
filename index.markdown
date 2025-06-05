@@ -5,12 +5,13 @@
 layout: default
 title: Willkommen zu unserem Parsons-Puzzle Test
 ---
+
 # Parsons Practice
 
 ### Hinweise
 
-Bitte lösen Sie die Aufgaben und merken sich ihr Feedback. Keine Daten werden gespeichert.
-
+Bitte lösen Sie die Aufgaben und merken sich ihr Feedback. Keine Daten werden gespeichert.  
+In mehreren Aufgaben existieren sogenannte Distruktoren, also Code-Zeilen, die nicht benutzt werden müssen. Diese dürfen Sie nicht benutzen, um die Aufgabe zu lösen.
 
 ### Starten
 
