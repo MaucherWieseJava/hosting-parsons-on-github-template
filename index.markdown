@@ -11,7 +11,10 @@ title: Willkommen zu unserem Parsons-Puzzle Test
 ### Hinweise
 
 Bitte lösen Sie die Aufgaben und merken sich ihr Feedback. Keine Daten werden gespeichert.  
-In mehreren Aufgaben existieren sogenannte Distruktoren, also Code-Zeilen, die nicht benutzt werden müssen. Diese dürfen Sie nicht benutzen, um die Aufgabe zu lösen.
+In mehreren Aufgaben existieren sogenannte Distruktoren, also Code-Zeilen, die nicht benutzt werden müssen. Diese dürfen Sie nicht benutzen, um die Aufgabe zu lösen.  
+  
+Wenn Sie die Aufgaben bearbeitet haben, bitten wir Sie einen Umfragebogen auszufüllen. Diesen finden Sie unter diesem Link:  
+https://docs.google.com/forms/d/e/1FAIpQLSc2vtfs_-Feb__K-JF7wEhlMAsUzS3SJd_LM2HG5qXnYTzmOw/viewform?usp=dialog
 
 ### Starten
 
